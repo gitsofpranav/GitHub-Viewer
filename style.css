@@ -1,0 +1,26 @@
+/* Full Page Background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+    /* Background Image */
+    background: url('https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Centered Div */
+.container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    
+}
